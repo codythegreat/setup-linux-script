@@ -36,6 +36,9 @@ apt install git
 git config --global user.email "email@mail.co"
 git config --global user.name "yourusername"
 
+# install docker
+apt install docker.io
+
 # install vim
 apt install vim
 
