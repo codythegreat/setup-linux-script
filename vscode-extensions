@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# install vscode extensions
+code --install-extension coenraads.bracket-pair-colorizer-2
+code --install-extension ritwickdey.liveserver
+code --install-extension pkief.material-icon-theme
+code --install-extension zhuangtongfa.material-theme
+code --install-extension ms-python.python
+code --install-extension syler.sass-indented
+code --install-extension vscodevim.vim
