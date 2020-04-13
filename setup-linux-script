@@ -20,6 +20,12 @@ gem install fusuma-plugin-wmctrl
 gem install fusuma-plugin-keypress
 gem install fusuma-plugin-tap
 
+# install python3.7
+apt install python3.7
+
+# intall pip3
+apt install python3-pip
+
 # install chromium
 apt install chromium-browser
 
@@ -38,6 +44,9 @@ git config --global user.name "yourusername"
 
 # install docker
 apt install docker.io
+
+# install jdk-14
+apt install openjdk-14-jdk
 
 # install vim
 apt install vim
