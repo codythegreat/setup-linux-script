@@ -1,0 +1,50 @@
+#!/bin/bash
+
+# update the computer
+apt update
+apt -y full-upgrade
+
+# install fusuma (touchpad gestures)
+# add user to input group
+gpasswd -a $USER input
+apt-get install libinput-tools
+apt-get install libevdev-dev
+apt install ruby-dev
+gem install fusuma
+apt-get install xdotool
+gem update fusuma
+
+# install fusuma plugins
+gem install fusuma-plugin-sendkey
+gem install fusuma-plugin-wmctrl
+gem install fusuma-plugin-keypress
+gem install fusuma-plugin-tap
+
+# install chromium
+apt install chromium-browser
+
+# install vscode
+snap install --classic code
+
+# install spotify
+snap install spotify
+
+# install git
+apt install git
+
+# set user.email and user.name
+git config --global user.email "email@mail.co"
+git config --global user.name "yourusername"
+
+# install vim
+apt install vim
+
+# build simple vimrc file
+touch ~/.vimrc
+cat << EOF > ~/.vimrc
+filetype plugin indent on
+set tabstop=4
+set shiftwidth=4
+set expandtab
+set number relativenumber
+EOF
