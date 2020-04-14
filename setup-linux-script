@@ -39,8 +39,8 @@ snap install spotify
 apt install git
 
 # set user.email and user.name
-git config --global user.email "email@mail.co"
-git config --global user.name "yourusername"
+git config --global user.email "maxiecody@gmail.com"
+git config --global user.name "codythegreat"
 
 # install docker
 apt install docker.io
@@ -66,6 +66,3 @@ set shiftwidth=4
 set expandtab
 set number relativenumber
 EOF
-
-# ENV Variables
-export EDITOR=vim
