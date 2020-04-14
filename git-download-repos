@@ -8,21 +8,25 @@ cd ./calcli
 git init
 git remote add origin https://github.com/codythegreat/calcli
 git pull origin master
+cd ..
 
 # create and pull dss repo
 cd ./dss
 git init
 git remote add origin https://github.com/codythegreat/dss
 git pull origin master
+cd ..
 
 # create and pull python-data-analysis repo
 cd ./python-data-analysis
 git init
 git remote add origin https://github.com/codythegreat/python_data_analysis_examples
 git pull origin master
+cd ..
 
 # create and pull codymaxie.com repo
 cd ./my-website
 git init
 git remote add origin https://github.com/codythegreat/codymaxie.com_
 git pull origin master
+cd ..
