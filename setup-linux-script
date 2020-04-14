@@ -48,6 +48,9 @@ apt install docker.io
 # install jdk-14
 apt install openjdk-14-jdk
 
+# install go
+apt install golang
+
 # install ranger
 apt install ranger
 
