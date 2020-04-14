@@ -1,0 +1,6 @@
+#!/bin/bash
+
+# ENV Variables
+echo "export EDITOR=vim" >> ~/.bashrc
+echo "export VISUAL=vim" >> ~/.bashrc
+echo "export BROWSER=/usr/bin/chromium-browser" >> ~/.bashrc
