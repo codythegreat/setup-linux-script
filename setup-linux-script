@@ -63,3 +63,6 @@ set shiftwidth=4
 set expandtab
 set number relativenumber
 EOF
+
+# ENV Variables
+export EDITOR=vim
