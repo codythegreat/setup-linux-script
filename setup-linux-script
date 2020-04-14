@@ -48,6 +48,9 @@ apt install docker.io
 # install jdk-14
 apt install openjdk-14-jdk
 
+# install ranger
+apt install ranger
+
 # install vim
 apt install vim
 
