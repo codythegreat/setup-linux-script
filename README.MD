@@ -1,8 +1,3 @@
----
-title: "Setup Linux Scripts"
-output: pdf_document
----
-
 # Setup Linux Scripts
 
 | Filename | Definition |
