@@ -29,6 +29,10 @@ apt install python3-pip
 # install python3-venv
 apt-get install python3-venv
 
+# install node and npm
+apt install nodejs
+apt install npm
+
 # install sqlite3
 apt install sqlite3
 
