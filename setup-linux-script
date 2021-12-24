@@ -61,6 +61,9 @@ apt install openjdk-14-jdk
 # install go
 apt install golang
 
+# install curl
+apt install curl
+
 # install ranger
 apt install ranger
 
