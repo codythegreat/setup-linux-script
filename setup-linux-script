@@ -67,15 +67,11 @@ apt install curl
 # install ranger
 apt install ranger
 
+# install tmux
+apt install tmux
+
 # install vim
 apt install vim
 
-# build simple vimrc file
-touch ~/.vimrc
-cat << EOF > ~/.vimrc
-filetype plugin indent on
-set tabstop=4
-set shiftwidth=4
-set expandtab
-set number relativenumber
-EOF
+# get dotfiles
+./dotfiles
