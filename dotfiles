@@ -1,0 +1,23 @@
+#!/bin/bash
+
+cd
+
+mkdir backup
+# backup default .bashrc, .vimrc, .tmux.conf if exists
+mv .bashrc /backup .
+mv .vimrc /backup .
+mv .tmux.conf /backup .
+rm README.md
+
+git init
+git remote add origin https://github.com/codythegreat/dotfiles
+git pull origin master
+
+# get vundle for vim
+mkdir -p ~/.vim/bundle
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+
+source ~/.bashrc
+
+# go back to previous dir
+cd -
